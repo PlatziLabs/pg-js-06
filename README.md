@@ -1,22 +1,15 @@
-En este desafío tienes un array de números positivos y negativos, tu reto es retornar un objeto con el número de veces que aparece un número.
+En este desafío tiene un código base el cual tienes lo que conocemos como el callback hell y tu tarea es evitarlo usando `async/await`
 
 La solución debería tener un input y output como los siguientes:
 
 Input
 
 ```js
-solution([1, 2, -3, -1, 2, 4, 4, 1, 45, -1]);
+runCode();
 ```
 
 Output
 
 ```sh
-{
-  '1': 2,
-  '2': 2,
-  '4': 2,
-  '45': 1,
-  '-3': 1,
-  '-1': 2
-}
+['Task 1', 'Task 2', 'Task 3']
 ```
